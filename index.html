@@ -6,24 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
     <header id="header">
         <div class="nav-menu">
             <div class="header-logo">
-                <img id="header-img" src="#" alt="Company logo">
+                <img id="header-img" src="img/logo.png" alt="Company logo">
             </div>
             <nav id="nav-bar">
-                <a id="nav-link" href="">Section</a>
-                <a id="nav-link" href="">Section</a>
-                <a id="nav-link" href="">Section</a>
-                <a id="nav-link" href="">Section</a>
+                <a class="nav-link" href="#aboutus">About us</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#pricing">Price</a>
+                <a class="nav-link" href="#team">Our Team</a>
+                <a class="nav-link" href="#contactus">Contact Us</a>
             </nav>
         </div>
         <div class="header-banner">
             <div class="header-text">
                 <div class="header-title">
-                    <h1>Title for Landing Page</h1>
+                    <h1>Title Landing Page</h1>
                 </div>
                 <div class="header-subtitle">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget tellus at nisl pulvinar vehicula.</p>
@@ -31,79 +34,142 @@
             </div>
         </div>
     </header>
-    <div class="primary">
-        <div container-text>
-            <h2>Title</h2>
+    <div id="aboutus" class="primary">
+        <div class="container-text">
+            <h2>About us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet ante sed vestibulum efficitur. Phasellus ultricies nulla velit, eget lobortis dolor congue nec. Phasellus a semper arcu. Fusce tincidunt elit sem, nec maximus augue hendrerit id.</p>
         </div>
         <div class="container-video">
-            <video class="video" src="">
-                <source src="#" type="video">
-            </video>
+            <iframe id="video" src="https://www.youtube.com/embed/sb-m7vKRq5s"></iframe>
         </div>
     </div>
-    <div class="services">
-        <div>
-            <h2>Title</h2>
+    <div id="services" class="services">
+        <div class="head">
+            <h2>Our services</h2>
             <hr class="line">
         </div>
         <div class="container">
             <div class="card-service"> 
-                <i></i>
+                <i class="fas fa-code" style="font-size: 80px;"></i>
                 <h3>Service</h3>
-                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales mollis volutpat. Vestibulum felis nisi, efficitur in nunc ac, facilisis ornare velit. Cras scelerisque imperdiet quam, id scelerisque tellus blandit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales mollis volutpat. Vestibulum felis nisi, efficitur in nunc ac, facilisis ornare velit. Cras scelerisque imperdiet quam, id scelerisque tellus blandit.</p>
             </div>
             <div class="card-service">
-                <i></i>
+                <i class="fas fa-pencil-alt" style="font-size: 80px"></i>
                 <h3>Service</h3>
-                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales mollis volutpat. Vestibulum felis nisi, efficitur in nunc ac, facilisis ornare velit. Cras scelerisque imperdiet quam, id scelerisque tellus blandit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales mollis volutpat. Vestibulum felis nisi, efficitur in nunc ac, facilisis ornare velit. Cras scelerisque imperdiet quam, id scelerisque tellus blandit.</p>
             </div>
             <div class="card-service">
-                <i></i>
+                <i class="far fa-lightbulb" style="font-size: 80px"></i>
                 <h3>Service</h3>
-                <p>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales mollis volutpat. Vestibulum felis nisi, efficitur in nunc ac, facilisis ornare velit. Cras scelerisque imperdiet quam, id scelerisque tellus blandit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sodales mollis volutpat. Vestibulum felis nisi, efficitur in nunc ac, facilisis ornare velit. Cras scelerisque imperdiet quam, id scelerisque tellus blandit.</p>
             </div>
         </div>
     </div>
-    <div class="section-form">
-        <form action="">
-            <input type="email" placeholder="username@mail.com">
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-    <div class="pricing-table">
+    <div id="pricing" class="pricing-table">
         <div class="card-price">
             <div class="header-price">Product</div>
-            <div class="value-price"></div>
             <ol>
                 <li>This is a feacture</li>
                 <li>This is a feacture</li>
                 <li>This is a feacture</li>
             </ol>
-            <button class="btn">BUY</button>
-        </div>
-    `   <div class="card-price">
-            <div class="header-price">Product</div>
-            <div class="value-price"></div>
-            <ol>
-                <li>This is a feacture</li>
-                <li>This is a feacture</li>
-                <li>This is a feacture</li>
-            </ol>
-            <button class="btn">BUY</button>
+            <div class="value-price">$100</div>
+            <div class="form-group">
+                <button class="btn">BUY</button>
+            </div>
         </div>
         <div class="card-price">
             <div class="header-price">Product</div>
-            <div class="value-price"></div>
             <ol>
                 <li>This is a feacture</li>
                 <li>This is a feacture</li>
                 <li>This is a feacture</li>
             </ol>
-            <button class="btn">BUY</button>
+            <div class="value-price">$200</div>
+            <div class="form-group">
+                <button class="btn">BUY</button>
+            </div>
+        </div>
+        <div class="card-price">
+            <div class="header-price">Product</div>
+            <ol>
+                <li>This is a feacture</li>
+                <li>This is a feacture</li>
+                <li>This is a feacture</li>
+            </ol>
+            <div class="value-price">$300</div>
+            <div class="form-group">
+                <button class="btn">BUY</button>
+            </div>
         </div>
     </div>
-    <footer>
+    <div id="team" class="team">
+        <div class="header">
+            <h2>OUR TEAM</h2>
+            <hr class="line">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+        </div>
+        <div class="container-team">
+            <div class="card">
+                <div class="image-member">
+                    <img src="https://dummyimage.com/250x350/5481f2/fff.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Her name</h3>
+                    <h4>Position</h4>
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-member">
+                    <img src="https://dummyimage.com/250x350/5481f2/fff.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Her name</h3>
+                    <h4>Position</h4>
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-member">
+                    <img src="https://dummyimage.com/250x350/5481f2/fff.png" alt="">
+                </div>
+                <div class="text">
+                    <h3>Her name</h3>
+                    <h4>Position</h4>
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <div id="contactus" class="section-form">
+        <div class="header">
+            <h2>Contact us</h2>
+        </div>
+        <div class="subscribe">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input id="email" type="email"  name="email" placeholder="Enter the email address" required>
+                <input id="submit" type="submit" value="Get Started" class="btn">
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
         <div class="footer-copyright">
             <p>© 2018 Landing Page, by Sebastian Florez</p>
         </div>
